@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+
+body{
+    overflow-x: hidden;
+}
+
+.cerrar{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(40 0 113);
+    font-size : 24px;
+    text-decoration : none;
+
+}
+.botonCerrar{
+        
+    background-color: #fff;
+    color : #fff;
+    border-radius: 32px;
+    padding : 8px;
+    position : absolute;
+    top : 48px;
+    font-weight : bold;
+    left : 80%;
+
+}
+
+.nombreUsuario{
+    position: relative;
+    top : 16px;
+    left : 32px;
+    height: 64px;
+    padding : 4px;
+    font-family: monospace;
+    font-size: 48px;
+}
+
+.encabezado{
+    position: absolute;
+    height: 128px;
+    width: 100%;
+    margin : 0;
+    top : 0px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+label{
+    position: relative;
+    top : 24px;
+    left : 48px;
+    
+
+    font-family: "Alfa Slab One", cursive;
+    text-align: center;
+    font-size: 30px;
+    word-spacing: 6px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(3, 3, 3, 0);
+
+}
+
+.navegador{
+    position: absolute;
+    top : 264px;
+    left : 52px;
+    padding : 16px;
+    width: 90%;
+    outline : none;
+
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+.navegador::placeholder{
+    color : #aaa;
+
+}
+
+
+/* MENU */
+a{
+    color : #000;
+    text-decoration: none;
+}
+
+.menu{
+    list-style: none;
+    margin : 25px;
+    font-size: 28px;
+    font-family: monospace;
+    position: relative;
+    left : -80px;
+    top : 40px;
+}
+.menu-li{
+    display : inline;
+    padding : 24px;
+    position: relative;
+    left : 65%; 
+}
+
+.menu-li a:hover{
+   color: rgb(40 0 113);
+}
+
+.menu-li-active a{
+  color: rgb(40 0 113);
+}
+
+
+
+/* IMAGEN LIBRO */
+
+.imagenLibro{
+    border-radius: 32px;
+    border : 6px black solid;
+    height: 200px;
+    width: 800px;
+    object-fit: cover;
+}
+
+#contenedorLibro{
+    position: relative;
+    top : -148px;
+    margin : 4px;
+    left : 8px;
+}
+
+
+#tocarLibro{
+    position: relative;
+    font-size: 46px;
+    color : rgb(56, 9, 132);
+    font-weight: 600;
+    font-style: italic;
+    font-family: monospace;
+    top : -128px;
+    left : 16px;
+    background-color: aliceblue;
+    display: inline;
+}
+
+#contenedorLibroVacio{
+    position: relative;
+    top : 80px;
+    left : 920px;
+    height: 260px;
+    width: 512px;
+}
+
+#nohay{
+    text-align: center;
+    font-family: monospace;
+}
+
+#tocarLibroVacio{
+    font-size: 24px;
+    color :rgb(152, 19, 19);
+    position: relative;
+    text-align: center;
+    top : -8px;
+}

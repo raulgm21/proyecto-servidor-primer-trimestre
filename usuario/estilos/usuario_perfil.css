@@ -1,0 +1,201 @@
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+.fondo{
+    width: 50%;
+    height: 95vh;
+    border-radius: 48px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.nombreUsuario{
+    font-family: monospace;
+    font-size: 48px;
+    text-align: center;
+    position: relative;
+    top : 120px;
+}
+
+.contenedor{
+    
+    position: relative;
+    left : 760px;
+    top : -760px;
+    width: 50%;
+    height: 100vh;
+}
+
+.texto{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top : 180px;
+
+}
+
+
+.volver{
+    position: relative;
+    top : 32px;
+    font-weight: 600;
+    color : rgb(255, 255, 255);
+    font-size : 24px;
+    padding : 16px;
+    border-radius : 32px;
+    position : relative;
+    left : 18%;
+    top : 240px;
+    margin : 8px;
+    background-color: rgb(7, 54, 101);
+
+    width: 512px;
+}
+
+.volverEnlace{
+    color : #fff;
+    text-decoration: none;
+}
+
+.modificar{
+    position: relative;
+    top : 32px;
+    font-weight: 600;
+    color : rgb(0, 0, 0);
+    font-size : 24px;
+    padding : 16px;
+    border-radius : 32px;
+    position : relative;
+    left : 18%;
+    top : 240px;
+    margin : 8px;
+    background-color: rgb(93, 94, 95);
+
+    width: 512px;
+}
+
+.modificarEnlace{
+    color : rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.eliminar{
+    position: relative;
+    top : 32px;
+    font-weight: 600;
+    color : rgb(255, 255, 255);
+    font-size : 24px;
+    padding : 16px;
+    border-radius : 32px;
+    position : relative;
+    left : 18%;
+    top : 240px;
+    margin : 8px;
+    background-color: rgb(175, 12, 12);
+
+    width: 512px;
+}
+
+.eliminarEnlace{
+    color : rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* CONTRA */
+
+#mostrarFormu{
+    overflow-x: hidden;
+    height: 460px;
+    width: 480px;
+}
+
+.nombreMod,.contraMod{
+    outline : none;
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+    position: relative;
+    left : 180px;
+    top : -16pX;
+}
+
+.inputcambiarContra{
+    display : block;
+    position : relative;
+    padding: 8px;
+    margin : 4px;
+    top : 16px;
+    left : 200px;
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    outline : none;
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+label{
+    position: relative;
+    top : 42px;
+    left : 64px;
+}
+
+
+.inputcambiarContra::placeholder{
+    color : #aaa;
+
+}
+
+.tituloCambiar{
+    color : #000;
+    
+    font-size: 32px;
+    font-family: monospace;
+    position: relative;
+    left : 180px;
+}
+
+
+.modificarPerfil{
+    position: absolute;
+    top : 324px;
+    padding : 8px;
+    left : 60px;
+    width: 160px;
+    height: 64px;
+    background-color: rgb(40 0 113);
+    color : #fff;
+}
+
+.cambiarAtras{
+    position: absolute;
+    top : 326px;
+    padding : 8px;
+    left : 260px;
+    width: 160px;
+    height: 64px;
+    background-color: rgb(176, 173, 182);
+    border-radius: 16px;
+}
+
+#cambiarContraModal{
+    overflow-x: hidden;
+}
+
+
+
+
+#errorTexto{
+    position: relative;
+    font-size: 24px;
+    font-style: italic;
+    left : 1048px;
+    top : -1180px;
+}
+
