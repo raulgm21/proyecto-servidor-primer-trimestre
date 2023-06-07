@@ -1,0 +1,98 @@
+body{
+    background-image: url('../imagenes/contactoFondo.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.recomendacion{ 
+resize: none;
+}
+
+.contenido{
+    height: 540px;
+    width: 480px;
+    background-color: rgba(113, 107, 107, 0.582);
+    position: absolute;
+    left : 35%;
+    top : 64px;
+}
+
+input,textarea,select{ 
+    padding: 16px;
+    margin : 8px;
+
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+
+}
+label{
+    font-size: 24px;
+    color : #fff;
+    font-weight: 600;
+    font-family: monospace;
+    position: relative;
+    left : 120px;
+  
+}
+
+h1{
+    position: relative;
+    left : 8px;
+    color : #fff;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.nombre{
+    position: relative;
+    left : 64px;
+}
+
+.recomendacion{
+    position : relative;
+    top : 4px;
+    left : 24px;
+}
+
+.opinion{
+    position: relative;
+    
+    left : 140px;
+}
+
+.mandar{
+    position: relative;
+    top : 80px;
+    left : -100px;
+    font-size: 20px;
+}
+
+.atras{
+    width: 480px;;
+    position : relative;
+    top : 128px;
+    left : -8px;
+    padding: 16px;
+    margin : 8px;
+    font-size : 24px;
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+}
+
+.atrasEnlace{
+    color : #000;
+    text-decoration: none;
+}
+
+.nombreContra{
+
+    color : #fff;
+    text-align: center;
+    font-style : italic;
+
+}
+
+#textoError{
+    
+}

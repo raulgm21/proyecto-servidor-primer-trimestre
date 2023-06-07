@@ -1,0 +1,53 @@
+#modalCookie{
+    width: 60%;
+    background-image: url("../imagenes/galletaFondo.png");
+    background-size : 112%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#aceptarCookie{
+    color : #fff;
+    font-size : 24px;
+    padding : 16px;
+    border-radius : 32px;
+    position : relative;
+    left : 36%;
+    margin : 8px;
+    background-color: rgb(40 0 113);
+}
+#denegarCookie{
+    color : #fff;
+    font-size : 24px;
+    padding : 16px;
+    border-radius : 32px;
+    position : relative;
+    left : 36%;
+    margin : 8px;
+    color : #000;
+}
+
+#tituloCookie{
+    color : #000;
+    position : relative;
+    font-size : 48px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+#textoCookie{
+    font-size : 16px;
+    background-color: #eee;
+    opacity : 0.75;
+    text-align: justify;
+}
+
+#imagenCookie{
+    position : absolute;
+    height: 90px;
+    width: 90px;
+    top : 32px;
+    left : 580px;
+}

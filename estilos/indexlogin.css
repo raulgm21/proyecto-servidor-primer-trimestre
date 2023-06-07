@@ -1,0 +1,420 @@
+*{
+   
+    text-decoration: none;
+    font-size: 24px;
+}
+body{
+    overflow-x: hidden;
+}
+
+a{
+    color : black;
+}
+
+/* MENU */
+
+.nav__ul{
+    list-style: none;
+    margin : 25px;
+}
+.nav__ul-li{
+    display : inline;
+    padding : 24px;
+    position: relative;
+    left : 75%; 
+}
+
+.nav__ul-li a:hover{
+   color: rgb(40 0 113);
+}
+
+.nav__ul-li-active a{
+  color: rgb(40 0 113);
+}
+
+
+
+/* MAIN */
+
+.main{
+    margin : 128px;
+    
+}
+
+.main__h1{
+    position: absolute;
+    left : 17%;
+    top : 140px;
+    font-size: 48px;
+}
+
+.main__formulario-input{
+    display : block;
+    position: relative;
+    top : 100px;
+    padding: 16px;
+    margin : 8px;
+    left : 16px;
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.main__formulario-input::placeholder{
+    color : #aaa;
+}
+/* MAIN FORMU BOTONES*/
+.inicio{
+    background-color: rgb(40 0 113);
+    color : #fff;
+    border-radius: 32px;
+    position: relative;
+    top : 120px;
+    left : 116px;
+    width : 256px;
+}
+
+#registrarBoton{
+    background-color: #eee;
+    color : #000;
+    border-radius: 32px;
+    position: relative;
+    top : 188px;
+    left : 116px;
+    width : 256px;
+    height: 64px;
+}
+
+
+/* --- Cambiar la contraseña ---*/
+
+#cambiarContraModal{
+    height: 480px;
+}
+
+.cambiarContra{
+    color : rgb(72, 7, 193);
+    position: relative;
+    top : 56px;
+    font-size : 16px;
+    font-style : italic;
+    left : 148px;
+    cursor : pointer;
+}
+
+.inputcambiarContra{
+    display : block;
+    position : relative;
+    padding: 8px;
+    margin : 4px;
+    top : -32px;
+    left : 240px;
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    outline : none;
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+label{
+    position: relative;
+    top : 12px;
+    left : 36px;
+}
+
+
+.inputcambiarContra::placeholder{
+    color : #aaa;
+
+}
+
+.tituloCambiar{
+    text-align: center;
+    font-size: 32px;
+    font-family: monospace;
+}
+
+.submitMod{
+    position : absolute;
+    top : 424px;
+    padding : 8px;
+    left : 80px;
+    width: 256px;
+    height: 64px;
+    background-color: rgb(40 0 113);
+    color : #fff;
+}
+
+.cambiarAtras{
+    position : absolute;
+    top : 428px;
+    padding : 8px;
+    left : 360px;
+    width: 256px;
+    height: 64px;
+    background-color: rgb(176, 173, 182);
+    border-radius: 16px;
+}
+
+.linea{
+    height: 1px;
+    width: 160px;
+    background-color: rgb(163, 162, 162);
+    position: relative;
+    top : 56px;
+    left : 64px;
+    width: 380px;
+}
+
+
+
+
+
+/* ASIDE */
+.aside__img{
+    position: absolute;
+    width : 50%;
+    left : 45%;
+    top : 120px;
+    
+}
+
+/* FOOTER */
+
+.footer{
+    position: relative;
+    top : 256px;
+    background-color: rgb(18,18,18);
+    height: 256px;
+}
+
+.footer p a{ 
+    left : 5%;
+    color : #fff;
+    position: relative;
+    top : 64px;
+    font-size : 32px;
+}
+.footer p a:hover{ 
+    transition : 0.8s;
+   color: rgb(40 0 113);
+   
+}
+
+.logo{
+    position: absolute;
+    top : 8px;
+    height: 120px;
+}
+
+.nav{
+    position: relative;
+    top : 8px;
+}
+
+
+/*RRSS*/
+
+.rrss{
+    height: 70px;
+    width: 70px;
+    position : relative;
+    top : -64px;
+    left : 1232px;
+    margin : 16px;
+    
+}
+
+
+#instagram{
+    position : relative;
+    background-image: url("../imagenes/instagram.png");
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+#instagram:hover{
+    transition: 1s;
+    background-size: 64px;
+    animation-name: girar;
+    animation-duration: 0.6s;
+    background-image: url("../imagenes/instagramColor.png");
+}
+
+#twitter{
+    position : relative;
+    top : -140px;
+    left : 1320px;
+    background-image: url("../imagenes/twitter.png");
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+
+#twitter:hover{
+    background-size: 64px;
+    transition: 1s;
+    animation-name: girar;
+    animation-duration: 0.6s;
+    background-image: url("../imagenes/twitterColor.png");
+}
+
+#facebook{
+    position : relative;
+    top : -140px;
+    left : 1232px;
+    background-image: url("../imagenes/facebook.png");
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+
+#facebook:hover{
+    transition: 1s;
+    animation-name: girar;
+    animation-duration: 0.6s;
+    background-image: url("../imagenes/facebookColor.png");
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+
+#whatsapp{
+    position : relative;
+    top : -224px;
+    left : 1320px;
+    background-image: url("../imagenes/whatsapp.png");
+    background-repeat: no-repeat;
+    background-size: 64px;
+}
+
+#whatsapp:hover{
+    background-size: 64px;
+    transition: 1s;
+    animation-name: girar;
+    animation-duration: 0.6s;
+    background-image: url("../imagenes/whatsappColor.png");
+}
+
+@keyframes girar{
+    0%{
+        transform: rotate(90deg);
+    }
+    33%{
+        transform: rotate(180deg);
+    }
+    66%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/* --- AVISO LEGAL --- */
+
+
+#dialogAviso{
+    width: 80%;
+    height: 90%;
+    background-image: url("../imagenes/fondoAvisoLegal.jpg");
+}
+
+#dialogPrivacidad{
+    width: 80%;
+    height: 90%;
+    background-image: url("../imagenes/privacidadDatos.jpg");
+}
+
+
+.contenidoAviso, .contenidoPrivacidad{
+    background-color: white;
+}
+
+#volverA, #volverP{
+    color : #fff;
+    font-size : 24px;
+    padding : 16px;
+    border-radius : 32px;
+    position : relative;
+    left : 45%;
+    margin : 8px;
+    background-color: rgb(40 0 113);
+}
+
+
+
+
+/* MODAL REGISTRAR */
+
+#modalRegistrar{
+    height: 640px;
+    width: 640px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.logoRegistrar{
+    height: 160px;
+}
+
+.tituloRegistrar{
+    position: relative;
+    top : -180px;
+    left : 320px;
+    font-size: 48px;
+    font-family: monospace;
+}
+
+.parrafoRegistrar{
+    position: relative;
+    top : -180px;
+    left : 200px;
+}
+
+.parrafoRegistrar2{
+    position: relative;
+    top : -148px;
+    left : 25%;
+    font-style: italic;
+}
+
+.nombre2,.contrasenya2{
+    position: relative;
+    top : -178px;
+    left : 170px;
+    outline : none;
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+.labelRegistrar{
+    position: relative;
+    top : -114px;
+    left : -12px;
+}
+
+.registrar2{
+    position: relative;
+    top : -160px;
+    left : 32px;
+    background-color: rgb(40 0 113);
+    color : rgb(255, 255, 255);
+    border-radius: 32px;
+    position: relative;
+    width : 256px;
+    height: 64px;
+
+}
+
+
+#cerrarRegistrar{
+    position: relative;
+    top : -232px;
+    left : 320px;
+    background-color: #eee;
+    color : rgb(0, 0, 0);
+    border-radius: 32px;
+    position: relative;
+    width : 256px;
+    height: 64px;
+
+}

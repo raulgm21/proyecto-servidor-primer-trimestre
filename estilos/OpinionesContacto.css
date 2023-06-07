@@ -1,0 +1,55 @@
+body{
+    background-image: url('../imagenes/opinionesFondo.png');
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+.contenedor{
+    word-wrap: break-word ;
+
+    border-radius : 32px;
+    position : relative;
+    top : 32px;
+    left : 32px;
+    width : 95%;
+    background-color : #bae;
+    height : 148px;
+}
+div{
+    margin : 8px;
+}
+
+h1,p{
+    margin : 5px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.atras{
+width: 240px;;
+position : relative;
+top : 8px;
+left : 480px;
+padding: 16px;
+margin : 8px;
+font-size : 24px;
+border : 2px #000 solid;
+border-radius: 16px;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+}
+
+.atrasEnlace{
+    color : #000;
+    text-decoration: none;
+}
+
+.titulo{
+    border-radius : 8px;
+    display : inline;
+    background : #fff;
+    color : #000;
+    font-weight : 600;
+    position : relative;
+    left : 400px;
+}
