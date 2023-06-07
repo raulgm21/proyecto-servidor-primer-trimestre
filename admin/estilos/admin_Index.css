@@ -1,0 +1,169 @@
+body{
+    margin : 12px;
+    background: rgb(223,222,235);
+    background: linear-gradient(90deg, rgba(223,222,235,1) 0%, rgba(163,163,255,1) 35%, rgba(37,160,185,1) 100%);
+    overflow-x: hidden;
+}
+img {
+    border-radius : 10px;
+    height: 158px;
+    width : 500px;
+    object-fit: cover;
+    position : relative;
+    top : -32px;
+    opacity : 0.5;
+}
+
+
+img:hover{
+    opacity : 1;
+    transition: 1.2s;
+    width: 625px;
+}
+div{
+    display : inline;
+    margin : 4px;
+    display : block;
+}
+.contenedor{
+    position: relative;
+    top : 88px;
+    margin : 6%;
+    position: absolute;
+    
+}
+
+.admin{
+
+    position: absolute;
+    left : 660px;
+    top : 0px;
+}
+.conjunto{
+    position : absolute;
+    left : 1000px;
+    top : 0px;
+}
+
+.admin a img, .conjunto a img{
+
+
+    border-radius : 10px;
+    height: 656px;
+    width : 300px;
+    display : inline;
+    position : relative;
+    top : -32px;
+    opacity : 0.5;
+}
+
+.admin a img:hover, .conjunto a img:hover{
+
+    opacity : 1;
+    transition: 1.2s;
+    width: 325px;
+}
+
+
+
+.cerrar{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(40 0 113);
+    font-size : 24px;
+    text-decoration : none;
+
+}
+.botonCerrar{
+    
+background-color: #fff;
+color : #fff;
+border-radius: 32px;
+padding : 8px;
+position : absolute;
+top : 32px;
+font-weight : bold;
+left : 80%;
+
+}
+
+.encabezado{
+    opacity: 1;
+    position: absolute;
+    height: 128px;
+    width: 100%;
+    margin : 0;
+    top : -2px;
+    left : 0px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.encabezado:hover{
+    width: 100%;
+}
+
+.tituloUsuario{
+    position: relative;
+    top : -2px;
+    left : 32px;
+    height: 64px;
+    padding : 4px;
+    font-family: monospace;
+    font-size: 48px;
+}
+
+/*
+.tituloInsertar,.tituloEliminar,.tituloModificar,.tituloConsultar,.tituloPrestamo{
+   display: none;
+   font-family: monospace;
+   font-size: 64px;
+   position: relative;
+   top : -64px;
+   left : 129px;
+
+   font-weight: 600;
+}
+
+.insertar:hover .tituloInsertar{
+    display : inline;
+    position : relative;
+    animation-name: mostrarTexto;
+    animation-duration: 1.2s;
+    z-index: 5;
+    animation-delay : infinite ;
+
+}
+
+.eliminar:hover .tituloEliminar{
+    display : inline;
+    position : relative;
+    animation-name: mostrarTexto;
+    animation-duration: 1.2s;
+    z-index: 5;
+    animation-delay : infinite ;
+
+}
+
+.insertar:hover .tituloInsertar:hover{
+    display:none;
+    position: relative;
+    transition: 0.4s;
+}
+
+@keyframes mostrarTexto{
+
+    
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0.5;
+       
+    }
+    100%{
+        opacity: 1;
+       
+    }
+}

@@ -1,0 +1,266 @@
+body{
+   
+    background: rgb(223,222,235);
+    background: radial-gradient(circle, rgba(223,222,235,1) 0%, rgba(184,255,163,1) 35%, rgba(66,221,190,1) 100%);
+    overflow-x: hidden;
+    margin : 24px;
+    height: 130vh;
+    
+}
+
+
+/* Formulario Libros*/
+.librosdiv{
+    margin : 16px;
+    border : 3px black solid;
+    border-radius: 64px;
+    background-color: #ddd;
+    width: 60%;
+    height: 440px;
+}
+
+
+
+.form-libros{
+
+    display : block;
+    position: relative;
+    left : 48px;
+    padding: 16px;
+    margin : 8px;
+  
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.paginas, .cantidad{
+    position: relative;
+    top : -176px;
+    left : 278px;
+}
+
+.submitLibros{
+    position: relative;
+    top : -256px;
+    left : 580px;
+    background-color: rgb(105,150,53);
+    font-weight: 600;
+    font-size: 16px;
+    color : #fff;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagenLibro{
+
+    width : 320px;
+    position: relative;
+    top : -660px;
+    left : 500px;
+}
+
+.tituloLibro{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left : 108px;
+}
+
+/* Formulario Personas*/
+
+.personasdiv{
+    position: relative;
+    top : 32px;
+    left : 540px;
+    margin : 16px;
+    border : 3px black solid;
+    border-radius: 64px;
+    background-color: #ddd;
+    width: 60%;
+    height: 440px;
+    
+
+}
+
+.tituloPersona{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left : 448px;
+}
+.form-persona{
+
+    display : block;
+    position: relative;
+    left : 48px;
+    padding: 16px;
+    margin : 8px;
+  
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.form-persona input{
+    position: relative;
+    left : 120px;
+}
+.persona[type=radio] {
+    
+    width: 100%;
+    height: 2em;
+}
+
+.dni, .nombre{
+    position : relative;
+    left : 400px;
+    top : 16px;
+}
+
+.fecha{
+    position: relative;
+    left : 400px;
+    top : 16px;
+}
+
+.persona{
+    position : relative;
+    left : 300px;
+    top : -44px;
+}
+
+
+
+.submitPersona{
+    position: relative;
+    top : 16px;
+    left : 120px;
+    background-color:  rgb(105,150,53);
+    font-weight: 600;
+    font-size: 16px;
+    color : #fff;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagenPersona{
+
+    width : 320px;
+    position: relative;
+    top : -400px;
+    left : 64px;
+    
+}
+
+
+
+
+/* Error y Correcto */
+
+.errordiv{
+    margin : 16px;
+    
+    width : 480px;
+ 
+    padding : 16px;
+    position: relative;
+    top : -428px;
+    border : 6px #9c0707 solid;
+    border-radius: 64px;
+    background-color: #f86868;
+    height: 248px;
+
+    font-weight: 600;
+    color : white;
+    font-size : 18px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.correctodiv{
+    margin : 16px;
+    
+    width : 480px;
+ 
+    padding : 16px;
+    position: relative;
+    top : -408px;
+    border : 6px #079c07 solid;
+    border-radius: 64px;
+    background-color: #68f868;
+    height: 64px;
+
+    font-weight: 600;
+    color : white;
+    font-size : 18px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Logo */
+.insertarlogo{
+
+    position: absolute;
+    left : 980px;
+    top : 200px;
+}
+
+/* CABECERA */
+
+.tituloCRUD{
+    color : #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+ 
+    font-weight: bold;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+    margin : 18px 30%;
+    width: 100%;
+
+    position : relative;
+    top : 32px;
+
+}
+
+a{
+    text-decoration: none;
+    color : rgb(255, 255, 255);
+}
+
+.contenedorInicio{
+    width: 99%;
+    height: 180px;
+    opacity: 1;
+    background-image: url("../imagenes/fondoBiblioteca.png");
+    border : 6px rgb(0, 0, 0) solid;
+    border-radius: 8px;
+}
+   
+
+
+/* LABEL */
+
+
+label{
+    font-family: monospace;
+    font-size: 16px;
+    position: relative;
+    left : 64px;
+    font-weight: 600;
+}
+
+.labelCantidad,.labelPagina{
+
+    position: relative;
+    top : -176px;
+    left : 290px;
+
+}
+
+.labelAutor{
+    position: relative;
+    left : 416px;
+    top : 16px;
+}

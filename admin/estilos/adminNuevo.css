@@ -1,0 +1,183 @@
+body{
+
+    background-image: url('../imagenes/admin.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+input{
+    display : block;
+    position: relative;
+    left : 128px;
+    padding: 16px;
+    margin : 8px;
+
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.contenedor{
+
+    border : 2px black solid;
+}
+
+.inicio{
+    color : #fff;
+    position: relative;
+    left : 140px;
+    background-color: rgb(25,17,94);
+    width: 256px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size : 24px;
+
+}
+
+
+.contenedor {
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    margin : 128px;
+    position: absolute;
+    left : 320px;
+    width: 560px;
+}
+
+h1{
+    color : #eee;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left : 108px;
+}
+
+.errorTexto{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border : 2px black solid;
+    position: absolute;
+    left : 30%;
+    top : 480px;
+    width: 532px;
+    padding : 8px;
+    border-radius: 80px;
+}
+
+.errorTexto p{
+    position: relative;
+    font-size: 24px;
+    left : 8px;
+    margin : 4px;
+    color : #fff;
+    font-weight: 600;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+button{
+    background-color: rgb(25,17,94);
+    padding: 8px;
+    border-radius: 16px;
+    position: relative;
+    top : 48px;
+    width: 256px;
+}
+a{
+    font-size: 24px;
+    color : #fff;
+    text-decoration: none;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+
+.menu{
+    position: absolute;
+    left : 600px;
+    top : 564px;
+}
+
+
+/* CONTRA */
+
+#cambiarContraModal{
+    height: 480px;
+    width: 480px;
+}
+.cambiarContraTexto{
+    color : rgb(255, 255, 255);
+    position: absolute;
+    top : 542px;
+    font-size : 24px;
+    font-weight: 600;
+    font-style : italic;
+    left : 570px;
+    cursor : pointer;
+    width: 400px;
+    z-index : 1;
+    
+}
+
+.nombreMod,.contraMod{
+    outline : none;
+    border:none;
+    border-bottom:1px solid rgb(0, 0, 0);
+    position: relative;
+    left : 180px;
+    top : -16pX;
+}
+
+label{
+    position: relative;
+    top : 32px;
+    left : 40px;
+}
+
+.contenedorContra{
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    border : 2px black solid;
+    height: 24px;
+    width: 532px;
+    padding : 8px;
+    border-radius: 80px;
+
+    position: absolute;
+    left : 30%;
+    top : 560px;
+}
+
+.tituloCambiar{
+    color : #000;
+    
+    font-size: 32px;
+    font-family: monospace;
+    position: relative;
+    left : 180px;
+}
+
+
+.submitMod{
+    position: absolute;
+    top : 404px;
+    padding : 8px;
+    left : 60px;
+    width: 160px;
+    height: 64px;
+    background-color: rgb(40 0 113);
+    color : #fff;
+}
+
+.cambiarAtras{
+    position: absolute;
+    top : 412px;
+    padding : 8px;
+    left : 260px;
+    width: 160px;
+    height: 64px;
+    background-color: rgb(176, 173, 182);
+    border-radius: 16px;
+}
+
+#cambiarContraModal{
+    overflow-x: hidden;
+}
+
+

@@ -1,0 +1,332 @@
+/* PARTE MODIFICAR MENU */
+
+body{
+    overflow-x: hidden;
+}
+.contenedorModificar{
+    position: absolute;
+    top : 0px;
+    left : 0px;
+    background-image: url("../imagenes/fondoEstrellas.jpg");
+    background-size: 300%;
+    width: 110%;
+    height: 150vh;
+ 
+    
+}
+.clavePrimaria, .claveModificar{
+    display: inline;
+    margin : 40px;
+    position: relative;
+    left : 32px;
+    top : 48px;
+}
+.inicioPrimaria{
+    height: 640px;
+    width: 640px;
+    border-radius: 48px;
+    opacity: 0.5;
+}
+.inicioModificar{
+    height: 640px;
+    width: 640px;
+    border-radius: 48px;
+    opacity: 0.5;
+}
+
+.inicioPrimaria:hover{
+    opacity: 1;
+    transition: 1.4s;
+}
+
+.clavePrimaria:hover .textoPrimario{
+   
+    animation-name: mostrarTexto;
+    animation-duration: 1.2s;
+    display: inline;
+}
+
+.inicioModificar:hover{
+    opacity: 1;
+    transition: 1.2s;
+}
+
+.claveModificar:hover .textoModificar{
+   
+   animation-name: mostrarTexto;
+   animation-duration: 1.2s;
+   display: inline;
+}
+
+.textoPrimario,.textoModificar{
+    display: none;
+    position: absolute;
+    top : -448px;
+    left : 32px;
+    font-size: 80px;
+    font-family: monospace;
+    text-align: center;
+    
+}
+
+.botonMenu{
+    padding : 16px;
+    border-radius : 16px;
+    position : relative;
+    left : -780px;
+    top : 128px;
+}
+.botonMenuEnlace{
+    text-decoration : none;
+    color : #000;
+    font-size : 24px;
+    font-family : monospace;
+}
+
+@keyframes mostrarTexto{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*        MODIFICAR PARAMETROS             */
+
+body{
+    background: rgb(222,231,235);
+    background: radial-gradient(circle, rgba(222,231,235,1) 29%, rgba(107,166,236,1) 68%, rgba(128,111,241,1) 100%);
+    overflow-x: hidden;
+    margin : 24px;
+    height: 130vh;
+}
+.librosdiv{
+    margin : 16px;
+    border : 3px black solid;
+    border-radius: 64px;
+    background-color: #ddd;
+    width: 60%;
+    height: 440px;
+}
+
+
+
+.form-libros{
+
+    display : block;
+    position: relative;
+    left : 48px;
+    padding: 16px;
+    margin : 8px;
+  
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.paginas, .cantidad{
+    position: relative;
+    top : -176px;
+    left : 278px;
+}
+
+.submitLibros{
+    position: relative;
+    top : -256px;
+    left : 580px;
+    background-color: rgb(72, 53, 150);
+    font-weight: 600;
+    font-size: 16px;
+    color : #fff;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagenLibro{
+
+    width : 320px;
+    position: relative;
+    top : -660px;
+    left : 500px;
+}
+
+.tituloLibro{
+
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left : 108px;
+    top : 16px;
+}
+
+.personasdiv{
+    position: relative;
+    top : 32px;
+    left : 540px;
+    margin : 16px;
+    border : 3px black solid;
+    border-radius: 64px;
+    background-color: #ddd;
+    width: 60%;
+    height: 440px;
+    
+
+}
+
+.tituloPersona{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    left : 448px;
+    top : 16px;
+}
+.form-persona{
+
+    display : block;
+    position: relative;
+    left : 48px;
+    padding: 16px;
+    margin : 8px;
+  
+    border : 2px #000 solid;
+    border-radius: 16px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.form-persona input{
+    position: relative;
+    left : 120px;
+}
+.persona[type=radio] {
+    position: relative;
+    top : -44px;
+    left : 280px;
+    width: 100%;
+    height: 2em;
+}
+
+.dni, .nombre, .fecha{
+    position : relative;
+    left : 400px;
+    top : 16px;
+}
+
+.isbn{
+    position : relative;
+    top : 0px;
+}
+
+.dni,.isbn{
+    background-color: rgb(223, 215, 255);
+}
+
+.persona{
+    position : relative;
+    left : 300px;
+    top : -44px;
+}
+
+.personaLabel{
+    position: relative;
+    top : -80px;
+    left : 640px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+.submitPersona{
+    position: relative;
+    top : 16px;
+    left : 120px;
+    background-color:  rgb(72, 53, 150);
+    font-weight: 600;
+    font-size: 16px;
+    color : #fff;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagenPersona{
+
+    width : 320px;
+    position: relative;
+    top : -400px;
+    left : 64px;
+    
+}
+.errordiv{
+    margin : 16px;
+    
+    width : 480px;
+ 
+    padding : 16px;
+    position: relative;
+    top : -428px;
+    border : 6px #9c0707 solid;
+    border-radius: 64px;
+    background-color: #f86868;
+    height: 248px;
+
+    font-weight: 600;
+    color : white;
+    font-size : 18px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.correctodiv{
+    margin : 16px;
+    
+    width : 480px;
+ 
+    padding : 16px;
+    position: relative;
+    top : -408px;
+    border : 6px #079c07 solid;
+    border-radius: 64px;
+    background-color: #68f868;
+    height: 64px;
+
+    font-weight: 600;
+    color : white;
+    font-size : 18px;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Logo */
+.insertarlogo{
+
+    position: absolute;
+    left : 980px;
+    top : 200px;
+}
+
+/* CABECERA */
+
+
+/* LABEL */
+
+
+label{
+    font-family: monospace;
+    font-size: 16px;
+    position: relative;
+    left : 64px;
+    font-weight: 600;
+}
+
+.labelCantidad,.labelPagina{
+
+    position: relative;
+    top : -176px;
+    left : 290px;
+
+}
+
+.labelAutor{
+    position: relative;
+    left : 416px;
+    top : 16px;
+}
+

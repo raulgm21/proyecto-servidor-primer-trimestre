@@ -1,0 +1,201 @@
+body{
+    overflow-x: hidden;
+    background-image: url("../imagenes/fondoLibros.png");
+}
+.contenedorInicio{
+ width: 99%;
+ height: 180px;
+ opacity: 1;
+ background-image: url("../imagenes/fondoBiblioteca.png");
+ border : 6px rgb(0, 0, 0) solid;
+ border-radius: 8px;
+}
+
+
+.botonMenu{
+padding : 16px;
+border-radius : 16px;
+position : relative;
+left : 40%;
+opacity: 1;
+}
+
+.botonMenuEnlace{
+    opacity: 1;
+    text-decoration : none;
+    color : #000;
+    font-size : 24px;
+    font-family : monospace;
+
+}
+
+.titulo{
+    color : #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+ 
+    font-weight: bold;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: normal;
+    text-transform: none;
+    margin : 18px 30%;
+    width: 100%;
+
+}
+
+.lista{
+    list-style: none;
+    display: inline;
+}
+
+.item{
+    display : inline;
+    padding: 16px;
+    margin : 16px;
+    width: 100%;
+    position: relative;
+    left : 27%;
+    top : 0px;
+
+
+    font-family: Segoe Print;
+    font-size: 32px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.item:hover a{
+    color : #7711cc;
+    transition: 0.8s;
+}
+
+a{
+    text-decoration: none;
+    color : #000;
+}
+
+.menu{
+    border : 2px solid black;
+    position : relative;
+    top : 8px;
+    border-radius: 24px;
+    background: rgb(150,166,236);
+    background: linear-gradient(135deg, rgba(150,166,236,1) 12%, rgba(95,189,229,1) 55%, rgba(157,37,221,1) 100%);
+}
+
+table{
+    position : relative;
+    top : 60px;
+
+    border : 2px black solid;
+    background-color: azure;
+}
+
+table,td,tr{
+    margin : 8px;
+    font-size : 18px;
+    position: relative;
+}
+
+td{
+    margin : 4px;
+    padding : 16px 4px;
+}
+.destacar td{
+    font-size : 24px;
+    margin : 0px auto;
+}
+
+.modificar{
+    height: 32px;
+    width: 128px;
+    background: rgb(148,148,231);
+    background: linear-gradient(135deg, rgba(148,148,231,1) 19%, rgba(161,168,231,1) 50%, rgba(37,25,189,1) 100%);
+    position : absolute;
+    border-radius: 32px;
+   
+    border : 2px black solid;
+}    
+.textoModificar{
+    position: relative;
+    top : 6px;
+    border : 0px solid black;
+    left : 24px;
+    color : #fff;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.borrar{
+    height: 32px;
+    width: 128px;
+    background: rgb(231,148,185);
+background: linear-gradient(135deg, rgba(231,148,185,1) 19%, rgba(231,161,187,1) 50%, rgba(189,25,48,1) 100%);
+
+    position : absolute;
+    border-radius: 32px;
+   
+    border : 2px black solid;
+}    
+.textoBorrar{
+    position: relative;
+    top : 6px;
+    left : 24px;
+    color : #fff;
+    background: rgb(231,148,185);
+    background: linear-gradient(135deg, rgba(231,148,185,1) 19%, rgba(231,161,187,1) 50%, rgba(189,25,48,1) 100%);
+    border : 0px black solid;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.insertar{
+    height: 32px;
+    width: 256px;
+    background: rgb(150,236,167);
+    background: linear-gradient(135deg, rgba(150,236,167,1) 12%, rgba(161,231,175,1) 45%, rgba(56,221,37,1) 100%);    position : absolute;
+    border-radius: 32px;
+    left : 82%;
+    top : 37%;
+    border : 2px black solid;
+}    
+.textoInsertar{
+    position: relative;
+    top : 8px;
+    left : 72px;
+    color : #fff;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.modificarClave{
+    height: 32px;
+    width: 128px;
+    
+    background: rgb(235,234,222);
+background: linear-gradient(135deg, rgba(235,234,222,1) 41%, rgba(169,231,161,1) 72%, rgba(222,221,235,1) 100%);
+    position : absolute;
+    border-radius: 32px;
+   
+    border : 2px black solid;
+}
+
+.textoModificarClave{
+    position: relative;
+    top : 6px;
+    left : 2px;
+    color : rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+
